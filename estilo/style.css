@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+:root {
+    --cor0: #A52502;
+    --cor1: #390D02;
+    --cor2: #000B0D;
+    --cor3: #154B52;
+    --cor4: #1C8394;
+}
+*{
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor0);
+   
+}
+header{
+    background-color: var(--cor1);
+    color: white;
+    padding: 30px;
+    margin: auto;
+}
+header h1{
+    text-align: center;
+}
+header p{
+    text-align: center;
+    font-size: 1.3em;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+}
+main p{
+    padding: 10px;
+    text-align: justify;
+    font-family: cursive;
+    font-size: 1.2em;
+}
+main h2{
+    color: var(--cor2);
+    padding: 5px;
+    background-image: linear-gradient(to right, var(--cor4), transparent);
+}
+main img{
+    width: 100%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
+    border-radius: 10px;
+}
+p strong{
+    font-size: 1.3em;
+} 
+section.img{
+    background-color: rgba(99, 102, 101, 0.582);
+    color: white;
+    width: 800px;
+    height: 1000px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.452);
+    background-attachment: fixed;
+}
+section#fundo{
+    position: relative;
+    background-image: url("../imagens/sonho.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img p{
+    position: absolute;
+    top: 85px;
+    left: 75px;
+    display: inline-block;
+    width: 450px;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5em;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);  
+}
+
+section h4{
+    font-family: cursive;
+    font-size: 2.7em;
+    padding: 10px;
+}
+footer {
+    background-color: var(--cor1);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
